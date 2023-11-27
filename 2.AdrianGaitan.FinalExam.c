@@ -555,7 +555,7 @@ int printfSortedRegisters() {
         }
         sueldo = sueldoBytes.d;
 
-        printf("%-20s %-20s %-23s %-20s %-6.2lf\n", cedula, nombre, apellidos, direccion, sueldo);
+        printf("%-25s %-25s %-28s %-30s %-6.2lf\n", cedula, nombre, apellidos, direccion, sueldo);
 
         // Skip '}' and the next '{'
         fgetc(file);
